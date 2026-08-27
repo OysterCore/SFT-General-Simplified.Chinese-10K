@@ -1,0 +1,19 @@
+{
+  "format": "JSON Lines compressed with gzip",
+  "split": "train",
+  "path": "data/train.jsonl.gz",
+  "record_count": 10050,
+  "fields": {
+    "id": "string; unique record identifier",
+    "messages": "list<{role: string, content: string}>; user then assistant",
+    "source": "string; construction source label",
+    "source_url": "string; Chinese Wikipedia source page",
+    "license": "string; CC-BY-SA-4.0",
+    "revision_date": "string; YYYY-MM-DD",
+    "crawl_date": "string; YYYY-MM-DD",
+    "domain": "string; automatically assigned domain",
+    "quality_score_18d": "number; heuristic score from 0 to 100",
+    "quality_dimensions_18d": "object; 18 heuristic dimension scores",
+    "metadata": "object; provenance and processing metadata"
+  }
+}

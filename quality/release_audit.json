@@ -1,0 +1,11 @@
+{
+  "record_count": 10050,
+  "unique_source_urls": 10050,
+  "unique_text_hashes": 10050,
+  "minimum_score": 90.0,
+  "dataset_sha256": "ba46f2393c228b73deade339a8a474a7fce411c4ac806ac5aa8555a63eae5654",
+  "scores_sha256": "9e2c600c0f30b648d0c0838a3f4c5aea5c34a01915ce119d4831b4c3ecf0645a",
+  "errors": {},
+  "warnings": {},
+  "passed": true
+}

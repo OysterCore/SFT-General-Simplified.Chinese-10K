@@ -1,0 +1,528 @@
+{
+  "generated_at": "2026-08-26T16:07:53.813511+00:00",
+  "input_file": "SFT-General-Simplified.Chinese-10K.jsonl",
+  "input_sha256": "ba46f2393c228b73deade339a8a474a7fce411c4ac806ac5aa8555a63eae5654",
+  "record_count": 10050,
+  "method": "18维等权平均×20；双规则逐维取低分；≥95分须通过对抗测试",
+  "admission_rule": "总分≥90、18维均≥4且信息密度=5",
+  "score_statistics": {
+    "mean": 93.2686,
+    "median": 93.3333,
+    "minimum": 90.0,
+    "maximum": 96.6667
+  },
+  "admitted_count": 10050,
+  "admitted_percentage": 100.0,
+  "replacement_pool_count": 0,
+  "score_interval_distribution": [
+    {
+      "interval": "0–59",
+      "count": 0,
+      "percentage": 0.0
+    },
+    {
+      "interval": "60–69",
+      "count": 0,
+      "percentage": 0.0
+    },
+    {
+      "interval": "70–79",
+      "count": 0,
+      "percentage": 0.0
+    },
+    {
+      "interval": "80–84",
+      "count": 0,
+      "percentage": 0.0
+    },
+    {
+      "interval": "85–89",
+      "count": 0,
+      "percentage": 0.0
+    },
+    {
+      "interval": "90–94",
+      "count": 8985,
+      "percentage": 89.403
+    },
+    {
+      "interval": "95–100",
+      "count": 1065,
+      "percentage": 10.597
+    }
+  ],
+  "dimension_distributions": {
+    "指令价值": {
+      "1": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "2": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "3": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "4": {
+        "count": 456,
+        "percentage": 4.5373
+      },
+      "5": {
+        "count": 9594,
+        "percentage": 95.4627
+      }
+    },
+    "事实可靠性": {
+      "1": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "2": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "3": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "4": {
+        "count": 10050,
+        "percentage": 100.0
+      },
+      "5": {
+        "count": 0,
+        "percentage": 0.0
+      }
+    },
+    "推理与思维链价值": {
+      "1": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "2": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "3": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "4": {
+        "count": 10050,
+        "percentage": 100.0
+      },
+      "5": {
+        "count": 0,
+        "percentage": 0.0
+      }
+    },
+    "训练信号清晰度": {
+      "1": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "2": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "3": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "4": {
+        "count": 239,
+        "percentage": 2.3781
+      },
+      "5": {
+        "count": 9811,
+        "percentage": 97.6219
+      }
+    },
+    "领域代表性与多样性": {
+      "1": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "2": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "3": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "4": {
+        "count": 10050,
+        "percentage": 100.0
+      },
+      "5": {
+        "count": 0,
+        "percentage": 0.0
+      }
+    },
+    "语法与表达规范性": {
+      "1": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "2": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "3": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "4": {
+        "count": 125,
+        "percentage": 1.2438
+      },
+      "5": {
+        "count": 9925,
+        "percentage": 98.7562
+      }
+    },
+    "安全与合规性": {
+      "1": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "2": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "3": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "4": {
+        "count": 274,
+        "percentage": 2.7264
+      },
+      "5": {
+        "count": 9776,
+        "percentage": 97.2736
+      }
+    },
+    "语言自然度": {
+      "1": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "2": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "3": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "4": {
+        "count": 3730,
+        "percentage": 37.1144
+      },
+      "5": {
+        "count": 6320,
+        "percentage": 62.8856
+      }
+    },
+    "长度适配性": {
+      "1": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "2": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "3": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "4": {
+        "count": 1363,
+        "percentage": 13.5622
+      },
+      "5": {
+        "count": 8687,
+        "percentage": 86.4378
+      }
+    },
+    "知识价值与新颖性": {
+      "1": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "2": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "3": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "4": {
+        "count": 6894,
+        "percentage": 68.597
+      },
+      "5": {
+        "count": 3156,
+        "percentage": 31.403
+      }
+    },
+    "结构与可读性": {
+      "1": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "2": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "3": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "4": {
+        "count": 77,
+        "percentage": 0.7662
+      },
+      "5": {
+        "count": 9973,
+        "percentage": 99.2338
+      }
+    },
+    "信息密度": {
+      "1": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "2": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "3": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "4": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "5": {
+        "count": 10050,
+        "percentage": 100.0
+      }
+    },
+    "幻觉诱导风险": {
+      "1": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "2": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "3": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "4": {
+        "count": 2350,
+        "percentage": 23.3831
+      },
+      "5": {
+        "count": 7700,
+        "percentage": 76.6169
+      }
+    },
+    "过拟合风险": {
+      "1": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "2": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "3": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "4": {
+        "count": 1259,
+        "percentage": 12.5274
+      },
+      "5": {
+        "count": 8791,
+        "percentage": 87.4726
+      }
+    },
+    "指令多样性贡献": {
+      "1": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "2": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "3": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "4": {
+        "count": 5781,
+        "percentage": 57.5224
+      },
+      "5": {
+        "count": 4269,
+        "percentage": 42.4776
+      }
+    },
+    "梯度贡献效率": {
+      "1": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "2": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "3": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "4": {
+        "count": 7954,
+        "percentage": 79.1443
+      },
+      "5": {
+        "count": 2096,
+        "percentage": 20.8557
+      }
+    },
+    "输出可控性": {
+      "1": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "2": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "3": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "4": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "5": {
+        "count": 10050,
+        "percentage": 100.0
+      }
+    },
+    "负样本免疫力": {
+      "1": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "2": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "3": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "4": {
+        "count": 233,
+        "percentage": 2.3184
+      },
+      "5": {
+        "count": 9817,
+        "percentage": 97.6816
+      }
+    }
+  },
+  "dimension_means": {
+    "指令价值": 4.9546,
+    "事实可靠性": 4.0,
+    "推理与思维链价值": 4.0,
+    "训练信号清晰度": 4.9762,
+    "领域代表性与多样性": 4.0,
+    "语法与表达规范性": 4.9876,
+    "安全与合规性": 4.9727,
+    "语言自然度": 4.6289,
+    "长度适配性": 4.8644,
+    "知识价值与新颖性": 4.314,
+    "结构与可读性": 4.9923,
+    "信息密度": 5.0,
+    "幻觉诱导风险": 4.7662,
+    "过拟合风险": 4.8747,
+    "指令多样性贡献": 4.4248,
+    "梯度贡献效率": 4.2086,
+    "输出可控性": 5.0,
+    "负样本免疫力": 4.9768
+  },
+  "gate_failure_distribution": [],
+  "adversarial_flag_distribution": [
+    {
+      "flag": "包含缺乏限定的绝对化断言",
+      "count": 132,
+      "percentage": 1.3134
+    }
+  ],
+  "domain_distribution": [
+    {
+      "domain": "法律与公共治理",
+      "count": 1862,
+      "percentage": 18.5274
+    },
+    {
+      "domain": "历史与文化",
+      "count": 1822,
+      "percentage": 18.1294
+    },
+    {
+      "domain": "地理与环境",
+      "count": 1695,
+      "percentage": 16.8657
+    },
+    {
+      "domain": "科学与技术",
+      "count": 1512,
+      "percentage": 15.0448
+    },
+    {
+      "domain": "生命与健康",
+      "count": 1061,
+      "percentage": 10.5572
+    },
+    {
+      "domain": "中文语言与文学",
+      "count": 815,
+      "percentage": 8.1095
+    },
+    {
+      "domain": "综合百科",
+      "count": 815,
+      "percentage": 8.1095
+    },
+    {
+      "domain": "社会与人文",
+      "count": 468,
+      "percentage": 4.6567
+    }
+  ],
+  "profile": {
+    "distinct_instruction_templates": 10050,
+    "largest_instruction_template_count": 1,
+    "distinct_instruction_families": 16,
+    "distinct_near_duplicate_buckets": 8190
+  }
+}

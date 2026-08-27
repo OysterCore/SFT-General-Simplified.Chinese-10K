@@ -1,0 +1,34 @@
+{
+  "release_file": "data/train.jsonl.gz",
+  "record_count": 10050,
+  "unique_ids": 10050,
+  "unique_source_urls": 10050,
+  "license_distribution": {
+    "CC-BY-SA-4.0": 10050
+  },
+  "domain_distribution": {
+    "社会与人文": 468,
+    "中文语言与文学": 815,
+    "生命与健康": 1061,
+    "法律与公共治理": 1862,
+    "科学与技术": 1512,
+    "历史与文化": 1822,
+    "地理与环境": 1695,
+    "综合百科": 815
+  },
+  "automatic_score": {
+    "minimum": 90.0,
+    "mean": 93.2686,
+    "maximum": 96.6667
+  },
+  "warnings": {
+    "regional_term:专案": 96,
+    "regional_term:影片": 261,
+    "regional_term:硬体": 58,
+    "regional_term:资讯": 4
+  },
+  "release_sha256": "6f038e35fefe597ca1e5cf9fef432ccd05fe8987d88186eafa74a823c90a48df",
+  "canonical_input_sha256": "ba46f2393c228b73deade339a8a474a7fce411c4ac806ac5aa8555a63eae5654",
+  "blocking_errors": [],
+  "status": "pass_with_warnings"
+}
